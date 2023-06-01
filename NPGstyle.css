@@ -140,3 +140,21 @@ p{
   background-color: white;
   color:black;
 }
+.sampleArticles{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 10px;
+  border: none;
+}
+.articleSummary{
+  border:blue;
+}
+.articleTitle{
+  min-width: 50px;
+  border: none;
+  background-color: lightblue;
+}
+.textPreview{
+  border:none;
+  background-color: pink;
+}
